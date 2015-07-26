@@ -15,9 +15,9 @@ I am developing a project with CodeIgniter and I needed to integrate this framew
 
 
 
-#Important:
+#Single upload (Important):
 
-If you need a SINGLE image upload do the modifications bellow:
+If you need a SINGLE image upload make the modifications bellow:
 
 in controllers/upload_images.php:
 
