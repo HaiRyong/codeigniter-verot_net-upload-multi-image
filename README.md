@@ -1,5 +1,5 @@
 # CodeIgniter-Verot_net-upload-images
-Integration of CodeIgniter and Verot Upload Images
+Integration of CodeIgniter and Verot Upload multi Images
 
 
 
