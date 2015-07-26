@@ -12,3 +12,31 @@ I am developing a project with CodeIgniter and I needed to integrate this framew
  $route['upload_images'] = 'Upload_images/index'; 
 
  $route['do_upload'] = 'Upload_images/do_upload';
+
+
+
+#IMPORTANT:
+
+If you need a SINGLE image upload do the modifications bellow:
+
+in controllers/upload_images.php:
+
+
+			remove these 3 lines: 
+
+			30:  foreach ($_FILES["files_image"]['tmp_name'] as $file) 
+
+			31:  {
+	
+			...
+	
+			62:  }
+			
+			
+			change line 32: 			$this->my_upload->upload($_FILES["files_image"]['tmp_name']);
+			
+			
+in views/upload_images_view.php		
+
+			change line 7:  <input type="file" multiple name="files_image" size="20" />
+			
