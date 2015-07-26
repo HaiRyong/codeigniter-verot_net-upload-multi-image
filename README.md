@@ -15,7 +15,7 @@ I am developing a project with CodeIgniter and I needed to integrate this framew
 
 
 
-#IMPORTANT:
+#Important:
 
 If you need a SINGLE image upload do the modifications bellow:
 
