@@ -2,7 +2,6 @@
 Integration of CodeIgniter and Verot Upload Images
 
 
-Integration of CodeIgniter and Verot Upload Images
 
 I am developing a project with CodeIgniter and I needed to integrate this framework with Verot class of upload-and-handle-images - http://www.verot.net. STEPS:
 
