@@ -38,5 +38,5 @@ in controllers/upload_images.php:
 			
 in views/upload_images_view.php		
 
-			change line 7:  <input type="file" multiple name="files_image" size="20" />
+			change line 7:  <input type="file" name="files_image" size="20" />
 			
